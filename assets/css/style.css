@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.navbar-nav > li > a:hover {
+  color: #ffc107;
+}
+
+header {
+  box-shadow: 0 0 10px 0px rgb(0 0 0 / 25%);
+}
+
+#intro {
+  background: url("https://themexbd.com/poket/bakery/wp-content/uploads/2021/11/slider-1.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.gwenfont {
+  font-family: "Gwendolyn", cursive;
+}
+
+.dancingfontt {
+  font-family: "Dancing Script", cursive;
+}
+
+.font-rotate {
+  transform: rotate(-20deg);
+}
+
+#about-us {
+  background: url("https://themexbd.com/poket/bakery/wp-content/uploads/2021/11/shap1.png")
+    no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+.text-brown {
+  color: rgb(31, 20, 20);
+  font-weight: 500;
+  transition: all ease-in-out 300ms;
+}
+
+.text-brown:hover {
+  background: rgb(255, 197, 5);
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-brown:hover #intro h1 {
+  color: red !important ;
+}
+
+.mx-width-800 {
+  max-width: 800px;
+}
+
+#promos {
+  background: rgb(33, 37, 41);
+}
+
+.promo-bg {
+  background: rgb(33, 37, 41);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 37, 41, 1) 0%,
+    rgba(33, 37, 41, 1) 50%,
+    rgba(255, 193, 7, 1) 50%,
+    rgba(255, 193, 7, 1) 100%
+  );
+}
+
+.text-right {
+  text-align: right;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.box-card .card {
+  border: 3px solid white;
+  transition: all ease-in-out 500ms;
+}
+
+.box-card .card:hover {
+  border: 3px solid #ffc107 !important;
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-button {
+  border: 0;
+  background: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+  background: rgb(255, 197, 5);
+  color: white;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+  background: none;
+  content: 'bi bi-chevron-up';
+} */
+
+#contact {
+  background: rgb(33, 37, 41)
+    url("https://themexbd.com/poket/restaurant/wp-content/uploads/2021/11/slider-1.jpg")
+    no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  backdrop-filter: blure(10px);
+}
+
+.bg-translucent {
+  background: rgb(255 193 7 / 18%);
+  border: 1px solid #ffffff1c;
+  box-shadow: 0 10px 25px 5px rgb(0 0 0 / 60%);
+}
+
+.max-width-600 {
+  max-width: 600px;
+}
+
+footer {
+  background: rgba(33, 37, 41, 1) 100%;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons li a {
+  color: rgb(255, 197, 5);
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav li a {
+  color: black;
+  display: flex;
+  align-items: center;
+  height: 66px;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  margin-left: 0.04rem;
+}
+
+.navbar-nav li a.active,
+.navbar-nav li a:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid black;
+}
+
+.navbar-nav li:first-child {
+  margin-left: 0;
+}

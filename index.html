@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        
+        <!--css-->
+        <!-- <link rel="stylesheet" href="css.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+        <!-- ----Custom CSS Styles---- -->
+        <link rel="stylesheet" href="/assets/css/style.css" >
+        <!--title-->
+        <title>Baked Bakery - Home</title>
+
+    </head>
+
+    <body>
+        <!-- ------Header Start here------- -->
+        <header class="bg-warning sticky-top">
+            <div class="container">
+                <div class="row">
+                    <!-- ------ Logo Start here----- -->
+                    <div class="col-2 col-lg-2">
+                        
+                        <a class="navbar-brand" href="/#intro">
+                            <img src="/assets/img/logo.png" alt="" width="" height="" class="d-inline-block align-text-top">
+                        </a>
+                    </div>
+                    <!-- ------ Logo End here----- -->
+
+                    <!-- ------ Nav Start here----- -->
+                    <div class="col-10 col-lg-10">
+                        <nav class="navbar navbar-expand-lg justify-content-end">
+                            <!--collapse button-->
+                            <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <!--nav-links-->
+                            <!--nav-links-->
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="intro">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-us">ABOUT US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="products">PRODUCTS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">OUR CLIENTS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">CONTACT US</a>
+                                    </li>
+                                    <li class="nav-item pt-2 mt-1">
+                                        <button class="btn btn-outline-dark" type="submit" onclick="buynow();">BUY NOW</button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                     <!-- ------ Nav End here----- -->
+                </div>
+            </div>
+        </header>
+        <!-- ------Header Start here------- -->
+
+
+
+
+          <!--main image and intro text-->
+          <section id='intro'>
+            <div class="container">
+                <!--row-->
+                <div class="row vh-100 px-5 py-5">
+                    
+                    <!--col1-->
+                        <div class="col-12 text-center align-self-center">
+                            <h3 class="display-4 text-warning dancingfontt ">Best Bakery</h3>
+                            <h1 class="display-1 text-white fw-bold">Products in Town</h1>
+                            <button class="btn btn-warning text-uppercase btn-lg px-5 py-3 mt-5 text-brown border-0">Make an Order</button>
+                            
+                        </div>
+
+                    <!--col2-->
+                        <!-- <div class="col-12 col-lg-6 align-self-center">
+                            <img class="image-fluid float-end d-none d-md-block"
+                            src="/assets/img/product.png">
+                        </div>     -->
+                </div>
+                <!--end of row-->
+            </div>
+          </section>
+          <!--end of section-->
+
+
+
+
+          <!--About Us-->
+          <section id='about-us' class="bg-light ">
+            <div class="container p-5 ">
+                <!--row-->
+                <div class="row py-5">
+                        <h1 class="col-12 display-4 text-uppercase text-center text-warning" >Our Story</h1>
+                    
+                        <p class="col-12 lead fs-4 lh-base text-center mt-5 mx-width-800 mx-auto">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iste eius asperiores molestiae voluptatum enim! Pariatur ratione accusantium nulla minima, in, 
+                            et nesciunt necessitatibus iure officiis dolore amet laudantium laboriosam explicabo!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iste eius asperiores molestiae voluptatum enim! Pariatur ratione accusantium nulla minima, in, 
+                            et nesciunt necessitatibus iure officiis dolore amet laudantium laboriosam explicabo!Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iste eius asperiores molestiae voluptatum enim! Pariatur ratione accusantium nulla minima, in, 
+                            et nesciunt necessitatibus iure officiis dolore amet laudantium laboriosam explicabo!
+                        </p>
+                    
+                      
+                </div>
+                <!--end of row-->
+            </div>
+          </section>
+          <!--end of section-->
+
+
+
+
+          <!--Catalogue-->
+          <section id='products' class="mb-5" >
+            <div class="container p-5">
+                
+                <!--row-->
+                <div class="row py-5">
+                        <h1 class="col-12 display-4 text-uppercase text-center text-warning">Catalogue</h1>
+                        <p class="col-12 lead fs-4 lh-base text-center mt-5  mx-auto">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iste eius asperiores molestiae voluptatum enim! Pariatur ratione accusantium nulla minima,
+                        </p>
+                </div>
+                <!--end of text row-->
+                
+                <!-- row with 2 images -->
+                <!--row-->
+                <div class="row justify-content-center">
+                    
+                    <!--col1-->
+                    <div class="card col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 border-0 py-3">
+
+
+                        <img class="image-fluid" src="/assets/img/BG.png" />
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                            <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">Online Store</h4>
+                            <p class=" card-text fs-5 ">12 Products </p>
+                          </div>
+
+                        <!-- <div class="card border-0 float-start float-md-end ">
+                          
+                            <img class="card-image image-fluid" src="/assets/img/BG.png" width="400px">
+                            
+                            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                              <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">ONLINE STORE</h4>
+                              <p class=" card-text fs-5 ">12 Products </p>
+                            </div>
+                        </div>-->
+
+                    </div>    
+                    <!-- end of col1 -->
+
+                    <!--col2-->
+                    <div class="card col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 border-0 py-3">
+
+
+                        <img class="image-fluid" src="/assets/img/BG2.png" />
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                            <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">Whole Sale</h4>
+                            <p class=" card-text fs-5 ">14 Products </p>
+                          </div>
+                    </div>    
+                    <!-- end of col2 -->
+
+                </div>
+                <!--end of 2 image row-->
+
+                <!-- row with 4 images -->
+                <!--row-->
+                <div class="row">
+
+                    <!--col1-->
+                    <div class="card col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 border-0 py-3">
+                        <img class="image-fluid" src="/assets/img/sandwich.png" >
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                            <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">Sandwich</h4>
+                        </div>
+                    </div>    
+                    <!-- end of col1 -->
+
+                    <!--col1-->
+                    <div class="card col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 border-0 py-3">
+                        <img class="image-fluid" src="/assets/img/cake.png" >
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                            <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">Whole Cake</h4>
+                        </div>
+                    </div>    
+                    <!-- end of col1 -->
+
+                    <!--col1-->
+                    <div class="card col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 border-0 py-3">
+                        <img class="image-fluid" src="/assets/img/slab cake.png" >
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                            <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">Slab Cake</h4>
+                        </div>
+                    </div>    
+                    <!-- end of col1 -->
+
+                    <!--col1-->
+                    <div class="card col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 border-0 py-3">
+                        <img class="image-fluid" src="/assets/img/focaccia.png" >
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                            <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">Focaccia</h4>
+                        </div>
+                    </div>    
+                    <!-- end of col1 -->
+                    
+                    <!--col1-->
+                    <!-- <div class="col-6 col-sm-4 col-md-3 col-sm-6  ">
+
+                        <div class="card border-0 text-white text-center" style="width:12rem;">
+                            
+                            <img class=" card-image image-fluid" src="/assets/img/sandwich.png" width="230px">
+                          
+                            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                              <h4 class="card-title fs-5 fw-bold" style="letter-spacing: 0.2rem;">SANDWICH</h4>
+                            </div>
+                        </div>
+
+                    </div>     -->
+                    <!-- end of col1 -->
+
+                    <!-- col2 -->
+                    <!-- <div class="col-md-3 col-sm-6  ">
+                        <div class="card border-0  text-white text-center" style="width:12rem;">
+                            
+                            <img class=" card-image image-fluid" src="/assets/img/focaccia.png" width="230px">
+                            
+                            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                              <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">FOCACCIA</h4>
+                            </div>
+                        </div>
+                    </div>  -->
+                    <!-- end of col2 -->
+
+                    <!-- col3 -->
+                    <!-- <div class="col-md-3 col-sm-6 mt-3  mt-md-0">
+                        <div class="card border-0  text-white text-center" style="width:12rem;">
+                           
+                            <img class=" card-image image-fluid" src="/assets/img/cake.png" width="230px">
+                            
+                            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                              <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">WHOLE CAKE</h4>
+                            </div>
+                        </div>
+                    </div>  -->
+                    <!-- end of col3 -->
+
+                    <!-- col4 -->
+                    <!-- <div class="col-md-3 col-sm-6 mt-3  mt-md-0">
+                        <div class="card border-0  text-white text-center" style="width:12rem;">
+                            
+                            <img class=" card-image image-fluid" src="/assets/img/slab cake.png" width="230px">
+                            
+                            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                              <h4 class="card-title fs-4 fw-bold" style="letter-spacing: 0.2rem;">SLAB CAKE</h4>
+                            </div>
+                        </div>
+                    </div>  -->
+                    <!-- end of col4 -->
+                </div>
+                <!--end of 4 image row-->
+
+            </div>
+          </section>
+          <!--end of section-->
+
+
+
+
+          <!--Festival Promos-->
+          <section id="promos" >
+            <!--dark-div-->
+            <div class="container p-5">
+                
+                <!--row-->
+                
+                    <h5 class="text-white col-12 display-6">
+                         Festival Promos
+                    </h5>
+                
+                <!--end of text row-->
+
+            </div>
+            <div class="container-fluid promo-bg">
+                <div class="container p-5 pt-0">
+                    <!-- row with 6 images -->
+                <!--row-->
+                <div class="row justify-content-center" >
+                    
+                    <!--col1-->
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+
+                        <div class="card border-0" >
+                            
+                            <div class="card-body text-center">
+                              <h6 class="card-text fw-bold">
+                                  Biscuits Cherry
+                              </h6>
+                              <h6>$35 - $45</h6>
+                              <img src="/assets/img/product_img1.png" class="card-img image-fluid mt-4" alt="..." width="140px">
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col1 -->
+
+                    <!--col2-->
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3 ">
+
+                        <div class="card border-0" >
+                            
+                            <div class="card-body text-center">
+                              <h6 class="card-text fw-bold">
+                                  Biscuits Cherry
+                              </h6>
+                              <h6>$35 - $45</h6>
+                              <img src="/assets/img/product_img2.png" class="card-img image-fluid mt-4" alt="..." width="140px">
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col2 -->
+
+                    <!--col3-->
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+
+                        <div class="card border-0" >
+                            
+                            <div class="card-body text-center">
+                              <h6 class="card-text fw-bold">
+                                  Biscuits Cherry
+                              </h6>
+                              <h6>$35 - $45</h6>
+                              <img src="/assets/img/product_img3.png" class="card-img image-fluid mt-4" alt="..." width="140px">
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col3 -->
+
+                    <!--col4-->
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+
+                        <div class="card border-0" >
+                            
+                            <div class="card-body text-center">
+                              <h6 class="card-text fw-bold">
+                                  Biscuits Cherry
+                              </h6>
+                              <h6>$35 - $45</h6>
+                              <img src="/assets/img/product_img4.png" class="card-img image-fluid mt-4" alt="..." width="140px">
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col4 -->
+
+                    <!--col5-->
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+
+                        <div class="card border-0" >
+                            
+                            <div class="card-body text-center">
+                              <h6 class="card-text fw-bold">
+                                  Biscuits Cherry
+                              </h6>
+                              <h6>$35 - $45</h6>
+                              <img src="/assets/img/product_img2.png" class="card-img image-fluid mt-4" alt="..." width="140px">
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col5 -->
+
+                    <!--col6-->
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+
+                        <div class="card border-0" >
+                            
+                            <div class="card-body text-center">
+                              <h6 class="card-text fw-bold">
+                                  Biscuits Cherry
+                              </h6>
+                              <h6>$35 - $45</h6>
+                              <img src="/assets/img/product_img3.png" class="card-img image-fluid mt-4" alt="..." width="140px">
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col6 -->
+
+
+
+
+
+                </div>
+                <!--end of 6 image row-->
+                </div>
+                
+            </div>
+          </section>
+          <!-- end of section -->
+
+
+
+
+          <!--image and text-->
+          <section id='quality' class="py-5">
+            <div class="container-fluid py-5 ">
+                <!--row-->
+                <div class="row align-items-center justify-content-end ">
+                    
+                    <!--col1-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center text-md-end">
+                            <h1 class="fw-bold text-warning display-1">
+                                    We'll provide best quality products 
+                            </h1>
+                        </div>
+
+                    <!--col2-->
+                        <div class="col-10 col-sm-10 col-md-12 col-lg-6 col-xl-6 px-0 text-right mt-5 mt-sm-5 mt-md-5 mt-lg-0 mt-xl-0">
+                            <img class="image-fluid device-width max-width"
+                            src="/assets/img/Image.png">
+                        </div>    
+                </div>
+                <!--end of row-->
+            </div>
+          </section>
+          <!--end of section-->
+
+
+
+          <!--clients reviews-->
+          <section id='clients' class="bg-light ">
+            
+            <div class="container-lg p-5 ">
+                <div class="row">
+                    <!--heading-->
+                    <h1 class="text-warning col-12 display-5 text-center">
+                        Client Reviews
+                    </h1>
+                    <p class="col-12 lead fs-4 lh-base text-center text-muted mt-3  mx-auto ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Iste eius asperiores molestiae voluptatum enim! Pariatur ratione accusantium nulla minima,
+                    </p>
+            <!--end of heading-->
+                </div>
+                
+                
+
+
+                <!-- row with 6 images -->
+                <!--row-->
+                <div class="row justify-content-center box-card" >
+                    
+                    <!--col1-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-4 ">
+
+                        <div class="card p-3" >
+                            
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Niklaus Mickelson</h5>
+                                <p class="card-text text-muted lead mt-4 fs-6 ">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quod, 
+                                    laudantium voluptatem atque nostrum architecto provident ipsam veniam minus perferendis sint earum sequi ratione non odit! Accusamus illum voluptatibus deleniti.    
+                                </p>
+                                <span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                </span>
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col1 -->
+
+
+                     <!--col2-->
+                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-4">
+
+                        <div class="card  p-3" >
+                            
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Niklaus Mickelson</h5>
+                                <p class="card-text text-muted lead mt-4 fs-6 ">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quod, 
+                                    laudantium voluptatem atque nostrum architecto provident ipsam veniam minus perferendis sint earum sequi ratione non odit! Accusamus illum voluptatibus deleniti.    
+                                </p>
+                                <span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </span>
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col2 -->
+
+
+                    <!--col3-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-4">
+
+                        <div class="card p-3" >
+                            
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Niklaus Mickelson</h5>
+                                <p class="card-text text-muted lead mt-4 fs-6 ">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quod, 
+                                    laudantium voluptatem atque nostrum architecto provident ipsam veniam minus perferendis sint earum sequi ratione non odit! Accusamus illum voluptatibus deleniti.    
+                                </p>
+                                <span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                </span>
+                            </div>
+                          </div>
+
+                    </div>    
+                    <!-- end of col3 -->
+
+
+
+                </div>
+                <!--end of row-->
+
+
+
+            </div>
+
+          </section>
+          <!--End of section-->
+
+
+
+          <!-- FAQS -->
+          <section id="faqs">
+            <div class="container p-5">
+                <div class="row">
+                    <!-- heading -->
+                    <h1 class="text-warning col-12 display-5 text-center ">
+                        FAQ's
+                    </h1>
+                </div>
+                
+                
+
+                <!-- accordion  -->
+                <div class="accordion mt-5 ">
+                    <!-- question1 -->
+                    <div class="accordion-item">
+                        <!-- heading -->
+                      <h2 class="accordion-header" id="q1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1-detail" aria-expanded="true" aria-controls="q1-detail">
+                          What type of payments do you accept?
+                        </button>
+                      </h2>
+                      <!-- detail -->
+                      <div id="q1-detail" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faqs">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum iusto maxime dicta vel architecto. Veritatis repudiandae deleniti debitis expedita fuga? Perspiciatis enim quam a, minima blanditiis tempore commodi dignissimos magnam?
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of q1 -->
+
+                    <!-- question2 -->
+                    <div class="accordion-item">
+                        <!-- heading -->
+                      <h2 class="accordion-header" id="q2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2-detail" aria-expanded="true" aria-controls="q2-detail">
+                          How big our cake will be?
+                        </button>
+                      </h2>
+                      <!-- detail -->
+                      <div id="q2-detail" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faqs">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum iusto maxime dicta vel architecto. Veritatis repudiandae deleniti debitis expedita fuga? Perspiciatis enim quam a, minima blanditiis tempore commodi dignissimos magnam?
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of q2 -->
+
+                    <!-- question3 -->
+                    <div class="accordion-item">
+                        <!-- heading -->
+                      <h2 class="accordion-header" id="q3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3-detail" aria-expanded="true" aria-controls="q3-detail">
+                          How long can our cake or desserts be outside?
+                        </button>
+                      </h2>
+                      <!-- detail -->
+                      <div id="q3-detail" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqs">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum iusto maxime dicta vel architecto. Veritatis repudiandae deleniti debitis expedita fuga? Perspiciatis enim quam a, minima blanditiis tempore commodi dignissimos magnam?
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of q3 -->
+
+                    <!-- question4 -->
+                    <div class="accordion-item">
+                        <!-- heading -->
+                      <h2 class="accordion-header" id="q4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4-detail" aria-expanded="true" aria-controls="q4-detail">
+                          What do your mini desserts cost?
+                        </button>
+                      </h2>
+                      <!-- detail -->
+                      <div id="q4-detail" class="accordion-collapse collapse" aria-labelledby="q4" data-bs-parent="#faqs">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum iusto maxime dicta vel architecto. Veritatis repudiandae deleniti debitis expedita fuga? Perspiciatis enim quam a, minima blanditiis tempore commodi dignissimos magnam?
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of q4 -->
+
+                    <!-- question5 -->
+                    <div class="accordion-item">
+                        <!-- heading -->
+                      <h2 class="accordion-header" id="q5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5-detail" aria-expanded="true" aria-controls="q5-detail">
+                          Is it cheaper to serve cup cakes?
+                        </button>
+                      </h2>
+                      <!-- detail -->
+                      <div id="q5-detail" class="accordion-collapse collapse" aria-labelledby="q5" data-bs-parent="#faqs">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum iusto maxime dicta vel architecto. Veritatis repudiandae deleniti debitis expedita fuga? Perspiciatis enim quam a, minima blanditiis tempore commodi dignissimos magnam?
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of q5 -->
+
+                    <!-- question6 -->
+                    <div class="accordion-item">
+                        <!-- heading -->
+                      <h2 class="accordion-header" id="q6">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#q6-detail" aria-expanded="true" aria-controls="q6-detail">
+                          Do you make wedding favors?
+                        </button>
+                      </h2>
+                      <!-- detail -->
+                      <div id="q6-detail" class="accordion-collapse collapse" aria-labelledby="q6" data-bs-parent="#faqs">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum iusto maxime dicta vel architecto. Veritatis repudiandae deleniti debitis expedita fuga? Perspiciatis enim quam a, minima blanditiis tempore commodi dignissimos magnam?
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of q3 -->
+                </div>
+                <!-- end of accordion -->
+            </div>
+          </section>
+          <!-- End of section -->
+
+
+
+          <!-- Contact Us -->
+          <section id="contact" >
+            <div class="container ">
+                <div class="row pt-5">
+                    <!-- heading -->
+                    <h1 class="text-warning col-12 display-5 text-center ">
+                        Contact Us
+                    </h1>
+                    <p class="col-12 lead fs-4 lh-base text-center text-white  mx-auto">
+                        Questions to ask? Fill out the form to contact us
+                    </p>
+                </div>
+
+
+
+                <!-- form -->
+                <div class="row">
+                    <div class="col-md-6 d-none d-md-none d-lg-none d-xl-block">
+                        <img src="https://themexbd.com/poket/bakery/wp-content/uploads/2021/11/contact-img.png" alt="contact-img" />
+                    </div>
+
+                    <div class="col-12 col-xl-6 p-5">
+                        <div class="card max-width-600 my-4 p-5 bg-translucent mx-auto">
+                            <form class="">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-person-fill"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="name" placeholder="Full Name">
+                                </div>
+
+
+                                <!-- email address -->
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-envelope-fill"></i>
+                                    </span>
+                                    <input type="email" class="form-control" id="email" placeholder="e.g:abc@example.com">
+                                </div>
+                                
+                                <!-- text - area -->
+                                <div class="form-floating mt-4">
+                                    <textarea  id="query" class="form-control" placeholder="Comments" style="height: 140px;">
+                                    </textarea>
+                                </div>
+    
+                                <!-- button -->
+                                <div class="my-4 text-center d-grid">
+                                    <button type="submit" class="btn btn-lg btn-warning" data-bs-toggle="modal" data-bs-target="confirmation"> 
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+          </section>
+
+          
+          
+          <!-- Latest Updates -->
+          <!-- <section id="updates" class="mb-5 py-5 bg-light">
+            <div class="container-lg  ">
+
+               
+                <div class="text-center text-warning">
+                    <h1 style="letter-spacing: 0.3rem;">
+                        Latest Updates
+                    </h1>
+                    <p class="text-muted">
+                        Subscribe Us to get latest news or updates
+                    </p>
+                    <p class="text-muted">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet <br> consectetur adipisicing elit. 
+                    </p>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal">
+                        Subscribe Us!
+                    </button>
+                </div>
+                
+            </div>
+          </section>  -->
+
+
+          <!-- footer -->
+          <footer class="">
+            <div class="container p-5">
+                <div class="row justify-content-center align-items-center text-warning">
+
+                    <div class="col-12 col-md-6 d-flex flex-row justify-content-center justify-content-sm-center justify-content-lg-start">
+                        <p class="lead fs-6" >Follow us</p>
+                            <ul class="social-icons">
+                                <li><a href="#" title="facebook"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#" title="instagram"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#" title="youtube"><i class="bi bi-youtube"></i></a></li>
+                            </ul>
+                    
+                    </div>
+
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-sm-center justify-content-lg-end">
+                        <p class=" lead fs-6 " >Copyright © bakedbakery all rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+          </footer>
+          <!-- end of section -->
+          
+
+          <!-- modal -->
+          <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fs-5" id="ModalLabel">You Have Subscribed Successfully</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Accusamus pariatur minima ad? Iure at sapiente, iste odio libero eum nisi, quas blanditiis ducimus iusto facilis obcaecati repellendus distinctio minus quibusdam.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-warning">Save Changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        <!--java script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script src="/assets/js/script.js" ></script>
+    </body>
+</html>
